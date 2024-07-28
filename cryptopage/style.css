@@ -1,0 +1,196 @@
+body
+{
+	background-color: #222930;
+	padding: 0;
+	margin: 0;
+	background-image: url(img/back3.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.header
+{
+	font-size: 40px;
+	text-align: center;
+}
+.container
+{
+	width: 920px;
+	margin:auto;
+}
+.halfcontainer
+{
+	float: left;
+	height: 556px;
+	text-align:center;
+	padding: 5px;
+	box-sizing: border-box;
+	box-shadow: inset 0px 3px 0px 0px rgba(255, 255, 255, 0.3);
+	width: 50%;
+}
+.halfcontainer:nth-child(1)
+{
+	border-radius: 12px 0 0 12px;
+	background-color: #ff2a13;
+}
+.halfcontainer:nth-child(2)
+{
+	border-radius: 0 12px 12px 0;
+	background-color: #2894da;
+}
+.imgbook
+{
+	width: 200px;
+	margin: 30px auto;
+}
+.video
+{
+	width: 440px;
+	margin:auto;
+	margin-top: 100px;
+	height: 247.5px;
+}
+.iframe
+{
+	width:100%;
+	height: 100%;
+}
+.arrow-down 
+{
+    text-align: center;
+    max-width: 210px;
+    margin: 30px auto;
+}
+.intro
+{
+	padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000000;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #fcfcfc;
+	font-size: 25px;
+	margin: 10px;
+	margin-top: 36px;
+    margin-bottom: 15px;
+}
+.name
+{
+	margin-bottom: 4px;
+}
+.email, .name 
+{
+    width: 90%;
+    padding: 15px 0;
+    box-shadow: inset 0px 1px 10px 0px rgb(0 0 0 / 30%), 0px 0px 0px 4px rgb(0 0 0 / 10%);
+    text-align: center;
+    border: 0;
+    color: #777777;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+.submit {
+    width: 90%;
+    line-height: 0;
+    height: 62px;
+    margin: 12px 0;
+    font-size: 26px;
+    color: #000000;
+    background: #fdc400;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: -1px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: inset 0px 1px 0px 0px rgb(250 250 250 / 70%);
+}
+.underform
+{
+	font-size: 13px;
+	text-shadow: none;
+	margin:10px;
+}
+.arrow
+{
+    margin-left: 4px;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: url(img/arrow.png) 0 center no-repeat;
+}
+.descriptionbox
+{
+	color: #555555;
+	font-size: 18px;
+	width: 920px;
+	box-sizing: border-box;
+	margin:auto;
+	margin-top: 30px;
+	padding: 15px 45px;
+	border-radius: 8px;
+    background: #fff 0 0 no-repeat;
+    box-shadow: inset 0px 3px 0px 0px rgb(250 250 250 / 30%);
+}
+.column
+{
+    width: 100%;
+}
+.right
+{
+	width: 50%;
+	background-color: #2894da;
+	float: left;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	height: 415px;
+}
+.left
+{
+	width: 50%;
+	float: left;
+}
+.josh
+{
+	width: 100%;
+}
+.minijosh
+{
+	display: none;
+}
+.column input, .column button, .column form
+{
+	display: block;
+	margin: auto;
+	margin-top: 4px;
+	width: 90%;
+}
+ .column form
+ {
+	 width: 100%;
+	
+ }
+footer > p
+ {
+	 color: gray;
+	 text-align: center;
+	 margin: 0;
+ }
+ footer a, footer
+ {
+	 color: gray;
+ }
+ .notei
+ {
+	 vertical-align: bottom;
+ }
+ .note
+ {
+	 margin: 5px 0;
+ }
