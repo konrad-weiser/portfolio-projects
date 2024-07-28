@@ -1,0 +1,178 @@
+.introduction ul
+{
+	color: #b9b9b9;
+}
+.introduction ul > li
+{
+	margin: 10px 0;
+}
+.crewdetail
+{
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+.man
+{
+	display: inline-block;
+}
+.manp
+{
+	display: inline-block;
+	text-align: justify;
+	width: 500px;
+}
+.companyimgl
+{
+	background-image: url(img/dots.png);
+	vertical-align: top;
+	margin-top: 30px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 42%;
+	background-position: right top;
+	margin-left: 0;
+	margin-right: 7%;
+	text-align: left;
+	float: left;
+}
+.companyimgl img
+{
+	width: 400px;
+	box-shadow: 0px 0px 32px -18px rgba(66, 68, 90, 1);
+	margin-top: 30px;
+}
+
+.subimg
+{
+	width: 450px !important;
+}
+.contactsection
+{
+	display: flex;
+	margin: 80px 0;
+	align-items: center;
+	justify-content: center;
+}
+.contactsection h2
+{
+	margin: 0;
+}
+.contactsection h2:first-child
+{
+	margin-right: 5vw;
+}
+.mainh1
+{
+	margin-top:80px !important; 
+	font-size: 80px !important;
+}
+
+@media(max-width: 1100px)
+{
+	.subimg
+	{
+		width: 100% !important;
+		height: auto;
+	}
+	.mainh1
+{
+	font-size: 60px !important;
+}
+}
+@media(max-width: 1010px)
+{
+	.crewdetail
+	{
+		width: 100%;
+	}
+}
+@media(max-width: 832px)
+{
+	.subimg
+	{
+		width: 450px !important;
+		height: auto;
+	}
+	.companyimgl
+	{
+		float: none;
+	}
+	.manp
+{
+	text-align: left;
+	width: 300px;
+	vertical-align: bottom;
+}
+}
+@media(max-width: 785px)
+{
+	.contactsection
+	{
+		flex-direction: column;
+	}
+	.contactsection h2:nth-child(1)
+	{
+		margin-bottom: 30px;
+	}
+}
+@media(max-width: 570px)
+{
+	.manp
+	{
+		text-align: left;
+		width: 200px;
+	}
+}
+@media(max-width: 510px)
+{
+	.mant
+	{
+		display: inline-block !important;
+		margin: 10px !important;
+	}
+}
+@media(max-width: 500px)
+{
+	.subimg
+	{
+		width: 90% !important;
+		height: auto;
+	}
+}
+@media(max-width: 440px)
+{
+	.manp
+	{
+		width: 90%;
+	}
+}
+@media(max-width: 415px)
+{
+	.contactsection
+	{
+		margin: 40px 0;
+	}
+	.contactsection h2
+	{
+		font-size: 30px;
+	}
+	.icon-phone, .icon-mail-alt
+	{
+		display: block;
+		font-size: 50px;
+		width: 70px;
+		margin: auto;
+	}
+	.mainh1
+{ 
+	font-size: 50px !important;
+}
+}
+@media(max-width: 305px)
+{
+	.contactsection h2
+	{
+		font-size: 24px;
+	}
+}
