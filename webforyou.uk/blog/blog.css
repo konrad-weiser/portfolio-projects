@@ -1,0 +1,352 @@
+.firstcontact
+{
+	text-align: left;
+	display: inline-block;
+	margin-top: 30px;
+	width: 300px;
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background-color: #f4f4f4;
+	height: 410px;
+}
+body
+{
+	color: #627792;
+    font-size: 1rem;
+    line-height: 1.625em;
+}
+.blogsec
+{
+	width: 90%;
+	margin: auto;
+	margin-top: 80px;
+}
+.blogrow
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.blogrow:nth-of-type(1)
+{
+	margin-top: 20px;
+}
+.article
+{
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 15px;
+	width: 340px;
+	height: 480px;
+}
+.article img
+{
+	width: 340px;
+	border-radius: 5px;
+	height: 200px;
+}
+.article a
+{
+	display: block;
+	width: 100%;
+	color: #0e2b5c;
+	font-weight: 500;
+	margin: 0 10px 20px 0;
+	font-size: 20px;
+	line-height: 140%;
+}
+.article span
+{
+	display: inline-block;
+	color: #3ea9f5;
+	font-size: 12px;
+	margin: 10px 2px;
+	text-transform: uppercase;
+	line-height: 140%;
+}
+.article
+{
+	color: #8797ac;
+	font-size: 12px;
+}
+.underimage
+{
+	padding: 0 10px;
+}
+p, li
+{
+	color: #627792;
+	line-height: 140%;
+}
+h4, h1
+{
+	font-weight: 500;
+    color: #0e2b5c;
+    text-transform: none;
+    font-size: 1.125rem;
+    line-height: 1.1em;
+}
+h1
+{
+	text-align: center;
+    font-size: 2rem;
+}
+.articlecontent h2
+{
+	margin: 30px 0;
+	text-align: left;
+	font-size: 1.4rem;
+}
+.niceline
+{
+	width: 60px;
+	border-bottom: 3px solid #9b9aad;
+	border-radius: 5px;
+}
+.articlecontent
+{
+	width: calc(100% - 420px);
+	padding: 1px 0;
+}
+.anotherarticle
+{
+	position: fixed;
+	right:0;
+	top:0;
+	margin-top: 60px;
+	width: 400px;
+}
+.anotherarticle ul
+{
+	list-style: none;
+}
+.anotherarticle li
+{
+	display: block;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+	color: #0e2b5c;
+}
+.date
+{
+	width: 100%;
+	text-align: center;
+}
+.date span
+{
+	text-transform: uppercase;
+    font-size: 13px;
+	color: #91a0b2;
+}
+.blueline
+{
+	width: 60px;
+	margin: 30px auto;
+	border-bottom: 3px solid #2596be;
+}
+blockquote
+{
+    color: #3ea9f5;
+    font-size: 1.125rem;
+	margin: 50px 0;
+    position: relative;
+    padding: 4% 6%;
+    border-left: 5px solid;
+    background: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
+}
+blockquote p
+{
+	color: #3ea9f5;
+    font-size: 1.125rem;
+	margin:0;
+}
+.askbluep
+{
+	font-weight: 500;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+.articlecontent img
+{
+	width: 100%;
+	height:auto;
+}
+.similar
+{
+	font-weight: 500;
+	padding: 2% 6%;
+}
+.similar span
+{
+	color: #627792;
+}
+.firstcontact
+{
+	margin:0;
+	height: auto;
+}
+.firstcontact h3
+{
+	margin:10px 0;
+	font-size: 26px;
+	line-height: 120%;
+}
+	.firstcontact button
+	{
+		width: 240px;
+	}
+@media(max-width: 1160px)
+{
+	.articlecontent
+	{
+		width: 80%;
+		margin: auto;
+		padding: 1px 0;
+	}
+	.anotherarticle
+	{
+		position: static;
+		margin-top: 30px;
+		width: 80%;
+		display: flex;
+		justify-content: space-between;
+		margin:auto;
+	}
+	.anotherbox
+	{
+		width:335px;
+		margin-right:30px;
+	}
+}
+@media(max-width: 1080px)
+{
+	.typicalp
+	{
+		width:80%;
+	}
+}
+@media(max-width: 930px)
+{
+	.anotherbox
+	{
+		width:300px;
+	}
+	.anotherarticle ul
+	{
+		padding:0;
+	}
+}
+@media(max-width: 930px)
+{
+	.anotherbox
+	{
+		width:300px;
+	}
+	.anotherarticle ul
+	{
+		padding:0;
+	}
+}
+@media(max-width: 867px)
+{
+	.anotherarticle
+	{
+		width:90%;
+	}
+	.articlecontent
+	{
+		width:90%;
+	}
+}
+@media(max-width: 773px)
+{
+	.anotherarticle
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+	.anotherbox
+	{
+		width:80%;
+		text-align:center;
+		margin-right:0;
+	}
+	.firstcontact
+	{
+		width:80%;
+		margin-top: 30px;
+		text-align: center;
+	}
+	
+	.firstcontact p
+	{
+		margin: 20px auto;
+		text-align: center;
+	}
+	.anotherarticle ul
+	{
+		padding:0;
+	}
+}
+@media(max-width: 790px)
+{
+	.article
+	{
+		width: 40vw;
+		min-height: 56.47vw;
+	}
+	.article img
+	{
+		width: 40vw;
+		height: 23.23vw;
+	}
+}
+@media(max-width: 600px)
+{
+	.blogrow
+	{
+		flex-direction: column;
+		
+	}
+		.article
+	{
+		width: 80vw;
+		height: auto;
+		margin: 15px auto;
+	}
+	.article img
+	{
+		width: 80vw;
+		height: 46.46vw;
+	}
+}
+@media(max-width: 420px)
+{
+		.firstcontact button
+	{
+		width:100%;
+	}
+}
+@media(max-width: 400px)
+{
+		.typicalp
+	{
+		width:100%;
+	}
+	.firstcontact
+	{
+		width:90%;
+	}
+	
+}
+@media(max-width: 250px)
+{
+	.firstcontact
+	{
+		width:100%;
+	}
+}
