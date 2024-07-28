@@ -1,0 +1,501 @@
+@media(min-width: 1400px)
+{
+	.intromain
+	{
+		width: 980px;
+	}
+	.opinions, .endingbox
+	{
+		width: 1260px;
+	}
+}
+@media(max-width: 1283px)
+{
+	.intromain
+	{
+		width:65%;
+	}
+	.offer
+	{
+		flex-basis: auto;
+	}
+	.offer:nth-child(3)
+	{
+		margin-right:10px;
+	}
+	.websites
+	{
+		width:90vw;
+	}
+	#web3index
+	{
+		float: none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#web1index
+	{
+		margin-bottom:60px;
+	}
+	.web
+	{
+		margin:30px;
+		width: calc(45vw - 60px);
+		height: 50vw;
+	}
+	.weblink
+	{
+		margin-top: calc(50vw - 80px);
+	}
+	.web:nth-of-type(3), .web:nth-of-type(5)
+	{
+		clear: both;
+	}
+	.web:nth-of-type(4)
+	{
+		clear: none;
+	}
+	.numbox
+	{
+		width:33.3%;
+	}
+	.why
+	{
+		width:90vw;
+	}
+	.whyimages
+	{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.whyimg
+	{
+		width: 40vw;
+		display: inline-block;
+		margin: 15px;
+		height: 26.66vw;
+	}
+	.noteboxes
+{
+	display: block;
+	width: 100%;
+	text-align: center;	
+	padding-top:0;
+}
+@media(max-width: 1200px)
+{
+	.secondcontact p, .typicalp
+	{
+		width:70%;
+	}
+}
+}
+@media(max-width: 1070px)
+{
+	.intromain
+	{
+		width:62%;
+	}
+	.offerrow
+	{
+		width: 90%;
+	}
+	.intromain p
+	{
+		width:80%;
+	}
+	.footstart img
+	{
+		width: 80%;
+		height:auto;
+	}
+}
+@media(max-width: 1015px)
+{
+	.intromain
+	{
+		width:60%;
+	}
+	.offerrow
+	{
+		display: block;
+		margin-top:10px;
+		margin-bottom: 60px;
+	}
+	.offer
+	{
+		display: inline-block;
+		margin: 15px 5px;
+	}
+}
+@media(max-width: 965px)
+{
+	.endingcell:nth-of-type(3)
+	{
+		width: 15%;
+	}
+	.endingcell:nth-of-type(4)
+	{
+		width: 30%;
+	}
+}
+@media(max-width: 916px)
+{
+		.numbox
+		{
+			width:20%;
+		}
+}
+@media(max-width: 900px)
+{
+		.web
+	{
+		margin:30px 15px;
+		width: calc(45vw - 30px);
+		height: 50vw;
+	}
+}
+@media(max-width: 876px)
+{
+	.intromain
+	{
+		width:100%;
+	}
+		.offerrow
+	{
+		display: flex;
+		justify-content: center;
+		margin-top:10px;
+		margin-bottom:0;
+	}
+	.offer
+	{
+		display: block;
+		margin: 15px 5px;
+	}
+		.offer:nth-child(3)
+	{
+		margin-right:5px;
+	}
+	.firstcontact
+	{
+		display:block;
+		margin: 30px auto;
+	}
+	.introduction
+	{
+		padding-bottom:1px;
+	}
+}
+@media(max-width: 865px)
+{
+	.endingbox
+	{
+		display: block;
+		text-align: center;
+	}
+	.endingcell
+	{
+		text-align:left;
+		display:inline-block;
+		width: 220px;
+		margin: 0 20px;
+		vertical-align: top;
+	}
+	.endingcell:nth-of-type(3)
+	{
+		margin-top:30px;
+	}
+	.endingcell:nth-of-type(4)
+	{
+		width: 350px;
+		margin-top:30px;
+	}
+}
+@media(max-width: 860px)
+{
+	.parallelbox
+	{
+		display: inline;
+	}
+	.emailbox input[type=email], .emailbox input[type=tel]
+	{
+		width:340px;
+	}
+	.emailbox button
+	{
+		width:300px;
+	}
+	.emailbox
+	{
+		width:384px;
+	}
+	.checklabel
+	{
+		margin: 15px auto;
+	}
+}
+@media(max-width: 830px)
+{
+	.opinion
+	{
+		margin:10px 0;
+	}
+	.opinion:nth-of-type(1), .opinion:nth-of-type(4)
+	{
+		margin-right:10px;
+	}
+}
+@media(max-width: 730px)
+{
+	.hamburger
+	{
+		display: block;
+	}
+	.hamburger.active .bar:nth-child(2)
+	{
+		opacity: 0;
+	}
+	.hamburger.active .bar:nth-child(1)
+	{
+		transform: translateY(8px) rotate(45deg);
+	}
+	.hamburger.active .bar:nth-child(3)
+	{
+		transform: translateY(-8px) rotate(-45deg);
+	}
+	.menu
+	{
+		position: fixed;
+		flex-direction: column;
+		align-items: center;
+		opacity: 0.98;		
+		left: -100%;
+		gap: 15px;
+		margin:0;
+		padding: 10px 0;
+		top: 50px;
+		background-color: #fff;
+		width: 100%;
+		height: auto;
+		transition: 0.3s;
+	}
+	.menu.active
+	{
+		left: 0;
+	}
+	.web:nth-of-type(3), .web:nth-of-type(5)
+	{
+		clear: none;
+	}
+	.web
+	{
+		float: none;
+		margin: 50px auto;
+		width:70vw;
+		height:60vw;
+	}
+	.weblink
+	{
+		margin-top: calc(60vw - 80px);
+	}
+	.opinion
+	{
+		margin:30px auto;
+		display: block;
+		width: 100%;
+	}
+	.opinion:nth-of-type(1), .opinion:nth-of-type(4)
+	{
+		margin-right:auto;
+	}
+	.footstart img
+	{
+		width: 90%;
+	}
+}
+@media(max-width: 638px)
+{
+	.whyimg
+	{
+		width:100%;
+		height:auto;
+		margin:0;
+		margin-bottom:10px;
+	}
+	.secondcontact p, .typicalp
+	{
+		width:100%;
+	}
+}
+@media(max-width: 630px)
+{
+	.websites
+	{
+		width:100%;
+	}
+		.web
+	{
+		width:85vw;
+		height:60vw;
+	}
+	.weblink
+	{
+		margin-top: calc(60vw - 80px);
+	}
+	.numbox
+		{
+			width:33.33%;
+		}
+}
+@media(max-width: 582px)
+{
+	.endingcell:nth-of-type(1), .endingcell:nth-of-type(4)
+	{
+		width:80%;
+	}
+	.endingcell:nth-of-type(2)
+	{
+		margin-top:30px;
+	}
+}
+@media(max-width: 571px)
+{
+	.numbox
+	{
+		margin-left:0;
+		margin-right:0;
+	}
+}
+}
+@media(max-width: 510px)
+{
+		.web
+	{
+		height: 110vw;
+	}
+	.web:nth-of-type(6), .web:nth-of-type(4)
+	{
+		height: 100vw;
+	}
+	.web:nth-of-type(6) .weblink, .web:nth-of-type(4) .weblink
+	{
+		margin-top: calc(100vw - 80px);
+	}
+	.weblink
+	{
+		margin-top: calc(110vw - 80px);
+	}
+}
+@media(max-width: 490px)
+{
+	.numbox
+	{
+		padding:15px;
+	}
+}
+@media(max-width: 455px)
+{
+	.numboxcont
+	{
+		flex-direction: column;
+	}
+	.numbox
+	{
+		width:100%;
+		padding:20px;
+		box-sizing: border-box;
+	}
+}
+@media(max-width: 440px)
+{
+	.notebox
+	{
+		margin:20px 0;
+		width:100%;
+		box-sizing: border-box;
+	}
+	.emailbox input[type=email], .emailbox input[type=tel], .emailbox textarea, .emailbox button
+	{
+		width:100%;
+		box-sizing: border-box;
+	}
+	.emailbox textarea
+	{
+		height:140px;
+	}
+	.emailbox
+	{
+		width:100%;
+	}
+		.footstart img
+	{
+		width: 100%;
+		height:auto;
+	}
+}
+@media(max-width: 416px)
+{
+	.offer
+	{
+		flex-basis: 70%;
+		flex-direction: column;
+	}
+}
+@media(max-width: 400px)
+{
+	.endingcell
+	{
+		display:block;
+		margin:auto;
+	}
+	.endingcell:nth-of-type(2),.endingcell:nth-of-type(3)
+	{
+		width:80%;
+	}
+}
+@media(max-width: 370px)
+{
+	.firstcontact
+	{
+		width:95%;
+		padding: 15px 5px;
+		height:auto;
+	}
+	.firstcontact input[type=tel],.firstcontact input[type=email], .firstcontact textarea, .firstcontact button
+	{
+		width:90%;
+	}
+	.checktext
+	{
+		width:calc(100% - 43px);
+	}
+}
+@media(max-width: 354px)
+{
+	.offer
+	{
+		flex-basis: 80%;
+		flex-direction: column;
+	}
+}
+@media
+{
+	.checklabel span
+	{
+		width:calc(100% - 43px);
+		margin-top:0;
+	}
+	.checklabel
+	{
+		height:28px;
+	}
+}
+@media(max-width: 312px)
+{
+	.offerrow
+	{
+		width: 100%;
+	}
+}

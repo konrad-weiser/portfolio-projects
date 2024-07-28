@@ -1,0 +1,378 @@
+.introduction
+{
+	background-image: url(img/aboutback.webp);
+	box-sizing: border-box;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	min-height: 0;
+}
+.introduction h1, .introduction h2
+{
+	font-size: 2rem;
+    color: #fff;
+	font-weight: 500;
+    text-align: center;
+	margin: auto;
+	width: 700px;
+}
+.introduction h4
+{
+	color: #fff;
+	font-weight: 500;
+}
+.aboutline
+{
+	margin: 30px auto;
+	width: 600px;
+	border-top: 1px solid #fff;
+}
+.techrow
+{
+	margin-top: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sm-aboutline
+{
+	margin: 30px 12px;
+	width: 150px;
+	border-top: 1px solid #fff;
+}
+.sm-aboutline, .introduction h4
+{
+	margin-bottom: 10px;
+}
+.introduction img
+{
+	display:block;
+	height: 85px;
+	width: auto;
+	margin: auto;
+	text-align: center;
+}
+.aboutplusbox
+{
+	width: 1200px;
+	margin:auto;
+	text-align: center;
+}
+.plus
+{
+	width: 24%;
+	vertical-align: top;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 40px 20px;
+	padding-top: 60px;
+	text-align: center;
+}
+.abicon
+{
+	font-size: 64px;
+	color: #0e2b5c;
+}
+.plus h3
+{
+	font-size: 20px;
+}
+.plus p
+{
+	color: #627792;
+	line-height: 160%;
+}
+.traits
+{
+	background-color: #0a1f39;
+	color: #fff;
+	padding: 2px 0;
+}
+.traits h2
+{
+	color: #fff;
+	font-weight:500;
+}
+.traits p
+{
+	color: #9b9aad;
+	width:auto;
+	line-height: 160%;
+	margin:0;
+	margin-bottom: 50px;
+}
+.traits h3
+{
+	color: #fff;
+	line-height:140%;
+	font-size: 20px;
+}
+.h34
+{
+	width:50%;
+}
+.traitspad
+{
+	padding: 30px;
+	width: 85%;
+	margin: auto;
+}
+.abrow
+{
+	display: flex;
+	width:800px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+.lefth
+{
+	width:200px;
+}
+.rightp
+{
+	width: 600px;
+}
+.abimgbox
+{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content:  space-between;
+}
+.abimg
+{
+	display: inline-block;
+	width: 600px;
+	height: 400px;
+	margin: 30px 0;
+}
+.abimg:nth-of-type(1)
+{
+	margin-right:20px;
+}
+.opinionsec
+{
+	padding-bottom: 20px;
+}
+.opcontainer
+{
+	display: flex;
+	align-items: top;
+	justify-content: center;
+}
+.supopinion
+{
+	width: 30%;
+	text-align: left;
+	margin: 10px;
+	box-sizing: border-box;
+	padding: 37px;
+	border-radius: 5px;
+	border-top: 3px solid #0057a9;
+	box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+	min-height: 200px;
+	background-color: #fff;
+}
+.supopinion p
+{
+	color: #627792;
+	line-height: 160%;
+	font-size: 16px;
+	margin-top: 0;
+}
+.supopinion h6
+{
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 0;
+	color: #0e2b5c;
+}
+@media(max-width:1400px)
+{
+	.abimg
+	{
+		width: 40vw;
+		height:26.66vw;
+	}
+	.abimgbox
+	{
+		width: 90vw;
+		justify-content: space-between;
+	}
+}
+@media(max-width:1300px)
+{
+	.aboutplusbox
+	{
+		width:90vw;
+	}
+}
+@media(max-width:1200px)
+{
+	.supopinion
+	{
+		padding: 30px;
+	}
+}
+@media(max-width:1100px)
+{
+	.supopinion
+	{
+		padding: 20px;
+	}
+}
+@media(max-width:910px)
+{
+	.abrow
+	{
+		width:100%;
+		justify-content: center;
+	}
+	.lefth
+	{
+		width:20%;
+		margin-right:10px;
+	}
+	.rightp
+	{
+		width: 60%;
+	}
+	.traits p
+	{
+		margin-bottom: 40px;
+	}
+}
+@media(max-width:876px)
+{
+	.introduction img
+	{
+		margin-bottom: 10px;
+	}
+}
+@media(max-width:840px)
+{
+	.abrow
+	{
+		flex-direction: column;
+	}
+	.lefth
+	{
+		width:80%;
+		margin:auto;
+	}
+	.rightp
+	{
+		width: 80%;
+		margin:auto;
+	}
+	.traits p
+	{
+		margin-bottom: 0px;
+	}
+	.traits
+	{
+		padding-bottom: 30px;
+	}
+	.h34
+{
+	width:100%;
+}
+}
+@media(max-width:800px)
+{
+	.opcontainer
+	{
+		align-items: center;
+	}
+	.techrow
+	{
+		margin-top: 80px;
+	}
+	.introduction img
+	{
+		margin-bottom:10px;
+	}
+	.plus
+	{
+		width:48%;
+	}
+	.aboutplusbox
+	{
+		width:100%;
+	}
+	.abimgbox
+	{
+		width:100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.abimg
+	{
+		width:80%;
+		height:auto;
+	}
+	.abimg:nth-of-type(1)
+	{
+		margin-right:0px;
+	}
+	.opcontainer
+	{
+		flex-direction: column;
+	}
+	.supopinion
+	{
+		width: 420px;
+		margin:30px 0;
+	}
+}
+@media(max-width:720px)
+{
+	.introduction h1, .introduction h2
+	{
+		width: 90%;
+	}
+	.aboutline
+	{
+		width: 80%;
+	}
+	.techrow
+	{
+		margin-top: 80px;
+	}
+}
+@media(max-width:600px)
+{
+	.sm-aboutline
+	{
+		width: 25%;
+	}
+}
+@media(max-width:470px)
+{
+	.supopinion
+	{
+		width: 100%;
+	}
+}
+@media(max-width:410px)
+{
+	.plus
+	{
+		display: block;
+		width:100%;
+		padding-top: 40px;
+	}
+		.abimg
+	{
+		width:90%;
+		height:auto;
+	}
+}
+@media(max-width:350px)
+{
+	.introduction img
+	{
+		width:95%;
+		height:auto;
+	}
+}

@@ -1,0 +1,225 @@
+.techrow
+{
+	margin-top: 80px;
+}
+.introduction
+{
+	height: 700px;
+}
+.contactsquare
+{
+	display: flex;
+	width: 80vw;
+	border: 2px solid rgba(3, 42, 95, 0.8);
+	border-radius: 20px;
+	margin: auto;
+	margin-top: -240px;
+	background-color:#eceff3;
+}
+.secondcontact
+{
+	width: 50%;
+	margin:0;
+}
+.secondcontact h2
+{
+	margin-top: 30px;
+}
+.secondcontact button
+{
+	margin-bottom: 30px;
+}
+.secondcontact p
+{
+	width:80% !important;
+}
+.emailbox
+{
+	width: 388px !important;
+}
+.emailbox input[type=email], .emailbox textarea
+{
+	width:340px !important;
+	box-sizing: content-box !important;
+}
+.emailbox button
+{
+	width:300px !important;
+	box-sizing: content-box !important;
+}
+.rightcontact
+{
+	width:50%;
+}
+.conimg
+{
+	width: 100%;
+	height:auto;
+	margin: auto;
+	border-top-right-radius: 20px;
+}
+.whycon
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.textmebox
+{
+	text-align: center;
+	margin-top:80px;
+}
+.textme
+{
+	display: block;
+	font-size: 30px;
+    font-weight: 500;
+    color: #0e2b5c;
+	transition: color 0.2s ease-in-out;
+}
+.textme:hover
+{
+	color:  #0057a9;
+}
+@media(min-width: 1400px)
+{
+	.contactsquare
+	{
+		width: 1120px;
+	}
+}
+@media(max-width: 1100px)
+{
+		.textmebox
+	{
+		margin-top:0;
+		margin:auto;
+	}
+	.contactsquare
+	{
+		flex-direction: column;
+		align-items:center;
+	}
+	.secondcontact
+	{
+		width:100%;
+	}
+	.whycon
+	{
+		flex-direction: row;
+		justify-content: space-between;
+		width:100%;
+	}
+	.rightcontact
+	{
+		width:100%;
+	}
+	.conimg
+	{
+		width: 50%;
+		margin:0;
+		border-top-right-radius: 0;
+		border-bottom-left-radius: 20px;
+	}
+}
+@media(max-width: 930px)
+{
+		.whycon
+	{
+		flex-direction: column;
+		justify-content: space-between;
+		width:100%;
+	}
+	.textme
+	{
+		order: 1;
+	}
+	.conimg
+	{
+		order:2;
+		width:100%;
+		border-bottom-right-radius: 20px;
+		margin-top:30px;
+	}
+}
+@media(max-width: 720px)
+{
+	.techrow
+	{
+		margin-top: 45px;
+	}
+}
+@media(max-width: 536px)
+{
+	.techrow
+	{
+		margin-top: 20px;
+	}
+	.emailbox
+	{
+		width: 90% !important;
+	}
+	.emailbox input[type=email], .emailbox textarea, .emailbox button
+	{
+		width:100% !important;
+		box-sizing: border-box !important;
+	}
+}
+@media(max-width: 496px)
+{
+	.techrow
+	{
+		margin-top: 20px;
+	}
+	.contactsquare
+	{
+		margin-top: -220px;
+	}
+}
+@media(max-width: 470px)
+{
+	.textme
+	{
+		font-size: 24px;
+	}
+}
+@media(max-width: 435px)
+{
+	.contactsquare
+	{
+		margin-top: -175px;
+	}
+}
+@media(max-width: 375px)
+{
+	.textme
+	{
+		font-size: 20px;
+	}
+}
+@media(max-width: 346px)
+{
+	.contactsquare
+	{
+		margin-top: -140px;
+	}
+	.contactsquare
+	{
+		width: 90vw;
+	}
+}
+@media(max-width: 301px)
+{
+	.contactsquare
+	{
+		margin-top: -80px;
+	}
+}
+@media(max-width: 285px)
+{
+	.textme
+	{
+		font-size: 18px;
+		word-break: break-word;
+	}
+}
