@@ -1,0 +1,350 @@
+@media(min-width: 1400px)
+{
+	.imgwh
+	{
+		margin: 0.5vw;
+	}
+}
+@media(max-width: 1360px)
+{
+	.imgwh
+	{
+		height:186px;
+		margin: 7px;
+		width: 140px;
+	}
+}
+@media(max-width: 1300px)
+{
+	.cat
+	{
+		width: 21vw;
+		height: auto;
+	}
+	.images
+	{
+		width: 21vw;
+		height: 13.5vw;
+	}
+	.cat .catplus
+	{
+		width: 21vw;
+		height: 13.5vw;
+	}
+	.plus
+	{
+		margin-top: calc(6.75vw - 36px);
+	}
+}
+@media(max-width: 1255px)
+{
+	.imgwh
+	{
+		height:169px;
+		margin: 5px;
+		width: 127px;
+	}
+}
+@media(max-width: 1230px)
+{
+	.container
+	{
+		justify-content: normal;
+	}
+}
+@media(max-width: 1195px)
+{
+	.imgbooks, .imgbox
+	{
+		height: 24vw;
+		width: 18vw;
+		margin: 0.75vw;
+	}
+	.footer1
+	{
+		width: 90vw;
+	}
+}
+@media(max-width: 1084px)
+{
+	.lefttext55, .lefttext55g
+{
+	float: none;
+	width: 100%;
+	background-color: #161b20;
+	text-align: left;
+}
+.lefttext35, .lefttext30g
+{
+	float: none;
+	padding: 20px;
+	background-color: #262b30;
+	width: auto;
+	margin: auto;
+	text-align: left;
+}
+.lefttext30g
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logoobox
+{
+	display: none;
+}
+.notebook
+{
+	margin:0;
+	width: 340px;
+}
+.asidecat
+{
+	width: 200px;
+}
+.articlehp
+{
+	width: calc(85vw - 290px);
+	overflow: hidden;
+}
+.imgwh
+{
+	height:213px;
+	margin: 0.5vw;
+	width: 160px;
+}
+}
+@media(max-width: 865px)
+{
+	.catseparator
+	{
+		display: block;
+	}
+		.cat
+	{
+		height: 230px;
+		width: 280px;
+	}
+	.images
+	{
+		height: 180px;
+		width: 280px;
+	}
+	.cat .catplus
+	{
+		height: 180px;
+		width: 280px;
+	}
+	.plus
+{
+	margin-top: 60px;
+}
+}
+@media(max-width: 885px)
+{
+	.imgwh
+	{
+		height:186px;
+		margin: 7px;
+		width: 140px;
+	}
+}
+@media(max-width: 815px)
+{
+	.imgwh
+	{
+		height:169px;
+		margin: 5px;
+		width: 127px;
+	}
+}
+@media(max-width: 764px)
+{
+	.bcatbox >ul
+	{
+		padding:0;
+		margin: auto;
+		width: 100%;
+	}
+.bcatbox >ul>li
+{
+	display: block;
+	border: 1px solid #8e9198;
+	border-bottom: none;
+
+	background-color: #161b20;
+	border-radius: 0;
+	padding: 10px;
+	cursor: pointer;
+	margin: 0;
+	transition: all 0.2s ease-in-out;
+}
+.bcatbox >ul>li:nth-child(1)
+{
+	border-radius: 3px 3px 0 0;
+}
+.bcatbox >ul>li:nth-child(3)
+{
+	border: 1px solid #8e9198;
+	border-radius: 0 0 3px 3px;
+}
+.bcatbox 
+{
+	border-bottom: none;
+}
+@media(max-width: 739px)
+{
+	.footer1
+	{
+		display: block;
+	}
+	.footcolumn:nth-child(1)
+{
+	display: block;
+	width: 100%;
+}	
+.footcolumn:nth-child(2)
+{
+	width: 48%;
+}
+.footcolumn:nth-child(3)
+{
+	width: 48%;
+}
+.bboxb
+{
+	width:286px;
+	margin: auto;
+}
+}
+@media(max-width: 735px)
+{
+	.bookseparator
+	{
+		display: block;
+	}
+}
+@media(max-width: 690px)
+{
+	.lefttext30g
+{
+	flex-direction: column;
+}
+.notebook
+{
+	margin-top:30px;
+}
+.asidecat
+{
+	width: 200px;
+}
+}
+@media(max-width: 650px)
+{
+	/*index*//*menu*/
+	.hamburger
+	{
+		display: block;
+	}
+	.hamburger.active .bar:nth-child(2)
+	{
+		opacity: 0;
+	}
+	.hamburger.active .bar:nth-child(1)
+	{
+		transform: translateY(8px) rotate(45deg);
+	}
+	.hamburger.active .bar:nth-child(3)
+	{
+		transform: translateY(-8px) rotate(-45deg);
+	}
+	.menu
+	{
+		position: fixed;
+		flex-direction: column;
+		left: -100%;
+		gap: 10px;
+		margin:0;
+		padding: 10px 0;
+		top: 50px;
+		background-color: #2ab3d2;
+		width: 100%;
+		height: auto;
+		transition: 0.3s;
+	}
+	.menu.active
+	{
+		left: 0;
+	}
+	.lateblock
+	{
+		display: block;
+		width: 100%;
+		margin: 2vh auto;
+	}
+}
+@media(max-width: 645px)
+{
+	.articles
+	{
+		width: 200px;
+		margin: 30px auto;
+	}
+	.articleimg
+{
+	float:none;
+	width: 200px;
+	height: 192px;
+}
+.articlehp
+{
+	float: none;
+	width: 100%;
+	
+}
+}
+@media(max-width: 560px)
+{
+	.justifyp
+	{
+		text-align: left;
+	}
+}
+@media(max-width: 470px)
+{
+	.footcolumn ul > li
+{
+	margin: 5vh 0;
+}
+.notebook
+{
+	width: 100%;
+}
+}
+@media(max-width: 420px)
+{
+	.bboxb
+	{
+		width: 160px;
+	}
+	.imgwh
+	{
+		display: block;
+		height:213px;
+		margin: 10px auto;
+		text-align: center;
+		width: 160px;
+	}
+}
+@media(max-width: 320px)
+{
+	.lefttext55, .lefttext55g
+{
+	padding: 2px;
+}
+.sitesg
+{
+	margin: auto;
+	width: 100%;
+}
+}

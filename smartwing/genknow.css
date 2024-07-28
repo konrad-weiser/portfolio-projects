@@ -1,0 +1,295 @@
+.articles
+{
+	border: 2px solid gray;
+	margin: 20px;
+	transition: all 0.35s ease-in-out;
+}
+.articles:hover
+{
+	cursor: pointer;
+	border-color: #2ab3d2;
+}
+.articles h4
+{
+	transition: all 0.35s ease-in-out;
+}
+.articles:hover h4
+{
+	color: #2ab3d2;
+}
+.articleimg
+{
+	float:left;
+	width: 200px;
+	height: 192px;
+}
+.articlehp
+{
+	float: left;
+	width: calc(55vw - 290px);
+	overflow: hidden;
+}
+.articlehp > h4
+{
+	margin: 20px;
+}
+.comments
+{
+	margin: 20px;
+	font-size: 15px;
+	font-family: Helvetica;
+}
+.comhead
+{
+	border-bottom: 2px solid gray;
+}
+.comnum
+{
+	display: inline-block;
+	padding: 10px 0;
+	
+}
+.comlog
+{
+	display: inline-block;
+	float: right;
+	padding: 11px 0;
+	text-align: right;
+	font-size: 16px;
+}
+.coms
+{
+	color: #d2d3d6;
+	padding: 11px 0;
+	font-size: 16px;
+	border-bottom: 2px solid #d2d3d6;
+}
+.comment, .commentf
+{
+	margin-top: 20px;
+}
+.comimg
+{
+	vertical-align: top;
+	width: 50px;
+}
+.comtextarea
+{
+	resize: none;
+	display: block;
+	outline: none;
+	background-color: #161b20;
+	color: #8e9198;
+	font-size: 15px;
+	box-sizing: border-box;
+	padding: 8px 8px;
+	margin-bottom: 18px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	width: 100%;
+	height: 80px;
+}
+.combut
+{
+	border: none;
+	float: right;
+	width: auto;
+	color: #8e9198;
+	font-size: 16px;
+	margin-top: 3px;
+	height: 18px;
+	display: none;
+	background-color: transparent;
+	font-weight: normal;
+	border-radius: 0;
+	padding: 0;
+}
+.sortby
+{
+	color:  #b0b1b4;
+	font-size: 15px;
+	cursor: pointer;
+	font-weight: 700;
+}
+.comimgu
+{
+	vertical-align: top;
+	width: 50px;
+	display: inline-block;
+}
+.textandbutu, .textandbut
+{
+	display: inline-block;
+	width: calc(100% - 70px);
+	margin-left: 10px;
+}
+.nametimeu
+{
+	margin-bottom: 5px;
+}
+.comname
+{
+	display: inline-block;
+	font-weight: 700;
+	color: #d2d3d6;
+	font-size: 14px;
+}
+.comtime
+{
+	display: inline-block;
+	color: #afb3ba;
+	font-size: 13px;
+	letter-spacing: 0px;
+	font-weight: 700;
+}
+.comp
+{
+	margin:0;
+	word-wrap: break-word;
+}
+.comreact
+{
+	font-size: 13px;
+	margin-top: 1px;
+	user-select: none;
+	color: #afb3ba;
+}
+.comvote
+{
+	float: left;
+	padding: 0 2px;
+}
+.comanswer
+{
+	float: left;
+	cursor: pointer;
+	margin-left: 9px;
+}
+.comvote:first-child
+{
+	padding-left: 0;
+	border-right: 1px solid #afb3ba;
+}
+.icon-down-open, .icon-up-open
+{
+	transition: color 0.2s ease-in-out;
+}
+.icon-down-open:hover, .icon-up-open:hover
+{
+	color: #d2d3d6;
+	cursor: pointer;
+}
+/*Main Boards*/
+.sitesg
+{
+	margin: auto;
+	width: 85vw;
+}
+.lefttext55g
+{
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	width: 55vw;
+	background-color: #161b20;
+	text-align: left;
+}
+.lefttext30g
+{
+	float: left;
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: #262b30;
+	width: 30vw;
+	text-align: left;
+}
+.sideul
+{
+	margin: 0; padding: 0;
+	margin-left: 35px;
+}
+.sidecat
+{
+	line-height: 160%;
+	color: #8e9198;
+}
+.sidecat a
+{
+	transition: all 0.35s ease-in-out;
+}
+.sidecat a:hover
+{
+	color:#2ab3d2;
+}
+.notebook
+{
+	border: 2px solid #2ab3d2;
+	max-width: 340px;
+	margin: auto;
+	box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 25%);
+	background-color: #161b20;
+	border-radius: 10px;
+	min-height: 80px;
+	transition: all 0.5s;
+	margin-top: 20px;
+}
+.notetext
+{
+	resize: none;
+	display: block;
+	overflow: hidden;
+	outline: none;
+	background-color: #161b20;
+	color: #8e9198;
+	font-size: 15px;
+	box-sizing: border-box;
+	padding: 8px 8px;
+	margin-bottom: 18px;
+	border: none;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 10px;
+	height: auto;
+}
+.notebut
+{
+	font-size: 16px;
+	margin: 0;
+	margin-left: calc(100% - 53px);
+	margin-bottom: 3px;
+	color: #2ab3d2;
+	background-color: transparent;
+	font-weight: bold;
+	border-radius: 0px;
+	padding: 0px;
+	width: auto;
+}
+.chosen
+{
+	color: rgb(42, 179, 210) !important;
+}
+.sortby > ul
+{
+	position: absolute;
+	background-color: #262b30;
+	list-style: none;
+	margin: 0;
+	user-select: none;
+	margin-left: 55px;
+	margin-top: -17px;
+	padding: 0;
+}
+.sortby > ul >li
+{
+	display: none;
+	transition: color 0.2s ease-in-out;
+}
+.sortby > ul >li:nth-child(1)
+{
+	display: block;
+}
+.sortby >ul >li:hover
+{
+	color: #d2d3d6;
+}

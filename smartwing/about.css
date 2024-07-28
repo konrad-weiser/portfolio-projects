@@ -1,0 +1,105 @@
+.logoobox
+{
+	width: 500px;
+	border-radius: 7px;
+	height: 284px;
+	background: url(img/nice1.png);
+	background-size: cover;
+	margin: auto;
+	transition: background-image 0.5s ease-in-out;
+}
+.logobox2
+{
+	background-image: url(img/nice2.png);
+}
+.lefttext55
+{
+	border-radius: 7px;
+	float: left;
+	box-sizing: border-box;
+	width: 55vw;
+	padding: 10px 20px;
+	background-color: #161b20;
+	text-align: left;
+}
+.lefttext35
+{
+	float: left;
+	box-sizing: border-box;
+	padding: 20px;
+	background-color: #262b30;
+	width: 35vw;
+	text-align: left;
+}
+.intro
+{
+	margin-left: 20px;
+}
+.contactform
+{
+	border: 2px solid #2ab3d2;
+	max-width: 340px;
+	margin: auto;
+	box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 25%);
+	background-color: #161b20;
+	border-radius: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+	box-sizing: content-box;
+	outline: none;
+	border: 2px solid #2ab3d2;
+	font-size: 16px;
+	padding: 5px 7px; 
+	border-radius: 5px;
+	margin-bottom: 3vh;
+	width: 220px;
+	height: 30px;
+}
+input[type="checkbox"]
+{
+	
+}
+.statute
+{
+	width: 234px;
+	margin: auto;
+	margin-bottom: 2vh;
+	text-align: left;
+}
+button, .but
+{
+	border: none;
+	font-size: 16px;
+	box-sizing: content-box;
+	color: white;
+	background-color: #2ab3d2;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 20px;
+	width: 190px;
+}
+.alertzone
+{
+	width: 100%;
+	text-align: center;
+	height: 16px;
+	color: #2ab3d2;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+#secondoption
+{
+	text-align:center;
+	cursor: pointer;
+	margin: auto;
+	margin-top: 2vh;
+	background-color: #161b20;
+	width: 70px;
+	height: 20px;
+	padding: 10px;
+	border: 2px solid #2ab3d2;
+	box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 25%);
+}
