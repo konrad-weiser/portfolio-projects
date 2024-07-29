@@ -1,0 +1,70 @@
+body
+{
+	margin: 0;
+	background-color: #26282E;
+	color: #0046FF;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+}
+h1
+{
+	text-align: center;
+	margin: 10px;
+	letter-spacing: 3px;
+}
+#container
+{
+	width: 820px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#plansza
+{
+	float: left;
+	text-align: center;
+	width: 520px;
+	height: 520px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.polab, .polaz
+{
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	height: 65px;
+	width: 65px;
+	filter: brightness(90%);
+}
+.pole_aktywne
+{
+	border: 2px solid #4F5051;
+	opacity: 0.99;
+	filter: brightness(93%);
+}
+.pole_2akt
+{
+	border: 2px solid #4F5051;
+	box-sizing: border-box;
+	overflow: hidden;
+	opacity:  0.98;
+	filter: brightness(92%);
+}
+.pole_2akt:hover
+{
+	transition: filter 0.2s ease-in-out;
+	filter: brightness(83%);
+}
+#panel
+{
+	float: left;
+	padding: 10px 0;
+	font-family: 'Roboto Condensed';
+	text-align: center;
+	margin-left: 96px;
+	border: 2px solid #0046FF;
+	background-color: #1F2024;
+	border-radius: 12px;
+	width: 200px;
+	height: 500px;
+}
