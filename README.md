@@ -1,3 +1,3 @@
 Witam,
 Szczególnie polecam zobaczyć mój najnowszy projekt - webforyou.uk
-![Uploading image (61).png…]()
+![alt text](http://url/to/image(61).png)
